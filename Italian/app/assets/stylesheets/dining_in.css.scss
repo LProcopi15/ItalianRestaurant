@@ -1,0 +1,44 @@
+#page_title {
+	text-align: center;
+}
+
+#philosophy_text {
+	text-align: center;
+}
+
+.pic {
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+#pizza_pic { 
+	background-image: url('pizza.jpg');
+} 
+
+#pasta_pic {
+	background-image: url('pasta.jpg');
+}
+
+#shrimp_pic {
+	background-image: url('shrimp.jpeg')
+}
+
+.text { 
+	height: 250px;
+	background: #FFF; 
+	opacity: 0; 
+} 
+
+.pic:hover .text { 
+	opacity: .7;
+	background-color: white;
+	color: black; 
+	font-size: 20px; 
+	font-weight: 700;
+	font-family: "Times New Roman", Times, serif; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+

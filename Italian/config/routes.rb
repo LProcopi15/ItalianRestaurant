@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
 
-  get '/dining_in' =>'pages#dining_in'
+  get '/dining_in' =>'diningin#dining_in'
 
   root to: 'home#index'
 
   get 'home' => 'home#index'
+
+  get 'contact' => 'contact#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
