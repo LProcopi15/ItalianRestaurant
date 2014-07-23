@@ -27,5 +27,11 @@
 	text-align: center;
 }
 .link_words {
-	color: white;
+	color: black;
+}
+.logo_and_name {
+	text-align: center;
+}
+body {
+	background-color: #DDD2BD;
 }

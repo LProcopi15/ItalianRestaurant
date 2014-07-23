@@ -1,0 +1,14 @@
+ <div class="form_text">
+    <%= f.label :name %><br/>
+    <%= f.text_field :name, autofocus: true %>
+  </div>
+
+  <div class="form_text">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true %>
+  </div>
+
+  <div class="form_text">
+    <%= f.label :password %><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  </div>
