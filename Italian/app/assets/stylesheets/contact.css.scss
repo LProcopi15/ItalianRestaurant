@@ -1,11 +1,25 @@
-h2 {
-	text-align: center;
+#map {
+	margin: auto;
+	margin-top: 50px;
 }
-
+#address {
+	margin-top: 130px;
+}
 .fbpic:hover {
 	opacity: 0.7;
 }
-
 .twitpic:hover {
 	opacity: 0.7;
+}
+.md-col-8 {
+	width: 70%;
+}
+.md-col-4 {
+	width: 30%;
+}
+
+#address, #phone {
+	font-size: 20px;
+	font-style: thin; 
+	font-family: 'Roboto Slab', sans-serif;
 }

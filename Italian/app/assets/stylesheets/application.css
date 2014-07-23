@@ -16,6 +16,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Lato|Roboto+Slab);
 
 
 .nav_bar {
@@ -25,6 +26,7 @@
 .header_links {
 	font-size: 20px;
 	text-align: center;
+	font-family: 'Lato', sans-serif;
 }
 .link_words {
 	color: black;
@@ -34,4 +36,8 @@
 }
 body {
 	background-color: #DDD2BD;
+}
+.container {
+	margin: 0;
+	padding: 0;
 }
