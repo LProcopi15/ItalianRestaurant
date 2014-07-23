@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require_tree .
 //= require bootstrap-sprockets
+//= require underscore
+//= require gmaps/google
 
 jQuery(function($) { 
 
@@ -50,4 +52,3 @@ jQuery(function($) {
   );
 
 });
-

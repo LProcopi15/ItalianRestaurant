@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get '/dining_in' =>'diningin#dining_in'
+
   root to: 'home#index'
 
   get 'home' => 'home#index'
@@ -7,6 +9,9 @@ Rails.application.routes.draw do
   get 'post' => 'post#index'
 
   resources :posts
+
+  get 'contact' => 'contact#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
