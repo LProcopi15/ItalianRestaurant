@@ -11,15 +11,14 @@
 .twitpic:hover {
 	opacity: 0.7;
 }
-.md-col-8 {
-	width: 70%;
-}
-.md-col-4 {
-	width: 30%;
-}
 
 #address, #phone {
+	padding-left: 30px;
 	font-size: 20px;
 	font-style: thin; 
 	font-family: 'Roboto Slab', sans-serif;
+}
+
+.fbpic {
+	padding-left: 30px;
 }

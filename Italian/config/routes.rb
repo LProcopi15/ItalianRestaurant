@@ -12,6 +12,10 @@ Rails.application.routes.draw do
 
   get 'contact' => 'contact#index'
 
+  get 'family' => 'family#index'
+
+  get 'event' => 'event#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
